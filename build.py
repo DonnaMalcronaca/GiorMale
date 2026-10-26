@@ -6,8 +6,8 @@ NUMERI = [
   "slug": "1",
   "data": "Zou, 1511",
   "occhiello": "Cronaca nera",
-  "titolo": "Capitan Mutanda rapito dai ricercati!",
-  "sommario": "Liberato in fretta e furia dopo l'articolo del Sea Shanty",
+  "titolo": "Capitan Mutanda terrorizza i suoi rapitori!",
+  "sommario": "I ricercati lo liberano senza chiedere un Berry: nemmeno loro lo reggevano",
   "copertina": "img/n1_prima_pagina.jpg",
   "paragrafi": [
    "Zou, 1511. Brutte notizie per chi crede ancora che i pirati siano gentiluomini incompresi. Nei giorni scorsi Capitan Mutanda, l'alato più elegante del Nuovo Mondo, noto per l'impeccabile mantellina di piume e per una collezione di biancheria che fa invidia alle sartorie di Water Seven, è stato rapito da un gruppo di ricercati. Appena uscito l'ultimo numero del Sea Shanty, i rapitori lo hanno liberato in fretta e furia, senza chiedere un solo Berry.",
