@@ -38,24 +38,7 @@ def head(titolo, base):
 FOOT = """</main><footer>Il GiorMale non risponde di esplosioni, rapimenti e baffi mancanti. Qui nessuno è invisibile.</footer></body></html>"""
 
 def articolo(N, base):
-    out=[f'<p class="occhiello">{html.escape(N["data"])} · Numero {N["n"]} · {html.escape(N["occhiello"])}</p>',
-         f'<h2 class="titolo">{html.escape(N["titolo"])}</h2>',
-         f'<p class="sommario">{html.escape(N["sommario"])}</p>',
-         f'<figure><img src="{base}{N["copertina"]}" alt="Prima pagina del GiorMale numero {N["n"]}"><figcaption>La prima pagina del numero {N["n"]}</figcaption></figure>',
-         '<div class="colonne">']
-    for p in N["paragrafi"]:
-        if p.startswith("@@"):
-            out.append(f'<div class="citazione">«{html.escape(p[2:])}»</div>')
-        else:
-            out.append(f'<p>{html.escape(p)}</p>')
-    out.append('</div>')
-    out.append(f'<p class="firma">— {html.escape(N["firma"])} <span class="bacio">💋</span></p>')
-    if N.get("riquadro"):
-        t,txt,img=N["riquadro"]
-        out.append(f'<div class="riquadro"><h3>{html.escape(t)}</h3><p>{html.escape(txt)}</p><img src="{base}{img}" alt="{html.escape(t)}" style="max-width:420px;width:100%;border:3px solid var(--inchiostro)"></div>')
-    for img,cap in N.get("galleria",[]):
-        out.append(f'<figure><img src="{base}{img}" alt="{html.escape(cap)}" style="max-width:520px"><figcaption>{html.escape(cap)}</figcaption></figure>')
-    return "\n".join(out)
+    return f'<figure class="pagina-intera"><a href="{base}{N["copertina"]}"><img src="{base}{N["copertina"]}" alt="GiorMale numero {N["n"]}: {html.escape(N["titolo"])}"></a></figure>'
 
 os.makedirs("numeri",exist_ok=True)
 ult=NUMERI[0]
