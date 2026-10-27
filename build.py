@@ -19,7 +19,7 @@ NUMERI = [
    "Capitan Mutanda è sano, salvo e, ci assicurano, perfettamente vestito. Alla redazione resta una sola domanda per i nostri lettori: se i difensori della libertà sono questi, chi difende Zou da loro?",
   ],
   "firma": "Donna Malcronaca",
-  "riquadro": ("Fiera del Gatto", "[Giorno X] · Nube Acida · Ingresso libero, guantoni a noleggio · A seguire: rissa vera!", "img/n1_volantino.jpg"),
+  "riquadro": ("Fiera del Pirata", "[Giorno X] · Nubi Acide · Ingresso libero, guantoni a noleggio · A seguire: rissa al gusto pirata!", "img/n1_volantino.jpg"),
   "galleria": [("img/locandina_gatto_ballata.jpg", "Dall'archivio: «Il Gatto e la Ballata», edizione straordinaria")],
  },
 ]
